@@ -25,4 +25,4 @@ jobs:
           context: "{{defaultContext}}"
           file: "./Cubitwelve/Dockerfile"
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cubi12:latest , ${{ secrets.DOCKERHUB_USERNAME }}/cubi12:${{ github.sha }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/catedra3arqui:latest , ${{ secrets.DOCKERHUB_USERNAME }}/catedra3arqui:${{ github.sha }}
